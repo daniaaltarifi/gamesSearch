@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --main-color:var(#eeeeef)}
+.navEnd{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 50px 0 50px;
+    color: aliceblue;
+}
+.navbar{
+    font-family: 'PT Sans', sans-serif;
+    background-color:#262332;
+}
+
+a.navBarColor{
+    color: #eeeeef;
+}
+body{
+    background-color: #1f1c29;
+}
+.boxGames{
+    background-color: #262332;
+}
+
+.linkGames{
+    color: #eeeeef;
+text-decoration: none;
+}
+.footer{
+    background-color: #262332;
+}
+.footerText{
+    color: #eeeeef;
+
+}
+
+.containerGamesDetails{
+    color: #eeeeef;
+}
+.searchBar{
+    background-color:#1f1c29 ;
+    border-radius: 10px ;
+color: white;
+}
+.imgGamesDetails{
+   margin: 50px 0 150px 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.info{
+    padding-left: 100px;
+}
+.information{
+    margin-top: 30px;
+}
+.details{
+   font-weight: "bold" ;
+   font-size: 20px;
+   
+}
+.title{
+    margin-left:1px;
+    text-align: left;
+    margin-top: 80px;
+}
+.boxGames{
+    width: 18rem;
+    margin: 30px 0
+}
+.imgGamesDetails{
+    height: 500px;
+}
+
+.copyRight{
+    color:#eeeeef;
+}
+.gamesTitle{
+    color:#eeeeef;
+}
+.animation{
+    position: absolute;
+    right: 50px ;
+bottom: 0;
+    height:20%;
+    width: 10%;
+
+}
+@media screen and (min-width:768px )and ( max-width:1023px) {
+    .imgGamesDetails{
+     width: 80%;
+     margin-left: 75px;
+    }
+}
+.backgroundGame{
+    opacity: 0.4;
+    position: relative;
+  
+}
+.infoAboutWeb{
+    color:#eeeeef;
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    top: 32%;
+    left: 24%;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px
+}
+.bigTitle{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74.4px;
+    margin-bottom: 3%;
+}
+
+.btnReadMre{
+    margin-top: 3%;
+}
+@media screen and (max-width:768px) {
+    .boxGames{
+        margin-top: 28%;
+        float: none;
+        margin-bottom:1px; 
+    }
+    .imgGamesDetails{
+        margin-left: 1px;
+        margin-bottom: 1px;
+    }
+    .bigTitle{
+        font-size: 30px;
+        margin-bottom: 1px;
+
+    }
+   
+    .infoAboutWeb{
+        top: 20%;
+        left: 1%;
+    }
+    .animation{
+        display: none;
+    }
+}
+.introduction{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.nameContact{
+    color: #eeeeef;
+}
+.foorm{
+    display: block;
+    justify-content: center;
+}
+.contactName{
+    color: #eeeeef;
+    font-family: 'PT Sans', sans-serif;
+    Font-size: 48px;
+
+    Font-weight: 700;
+    
+    Line-height: 57.6px
+}
+.boxInfo{
+    background-color: #302c3f;
+    border: none;
+margin-bottom: 5%;
+color: #eeeeef;
+}
+
+.boxInfo::placeholder{
+    color: #eeeeef;
+}
+  .contactBtn{
+    color:#eeeeef;
+    background-color: #6b54b6;
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .contactBtn:hover{
+    background-color: #6b54b6;
+  }
+  
+  
